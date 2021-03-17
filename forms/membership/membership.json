@@ -16,7 +16,7 @@
         "forms",
         "membership",
         "Elements",
-        "Verify.json"
+        "lblResult.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "membership",
         "Elements",
-        "Name.json"
+        "btnEnter.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "membership",
         "Elements",
-        "lblMessage.json"
+        "iptName.json"
       ]
     }
   ],

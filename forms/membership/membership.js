@@ -1,14 +1,15 @@
 
 let members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
+let i = 0
 
-
-Verify.onclick=function(){
-  let InputName = name.value
-  let check= members.includes(InputName)
-  if (check == true)
-    lblMessage.textContent = "You are already a member!"
-  if (check == false) {
-    members.push(InputName)
-    lblMessage.textContent = "You were not a member :(, but you are now!"
-    }
+btnEnter.onclick = function() {
+        let newMember = iptName.value
+        if (members.includes(newMember))
+            lblResult.value = "You are a member." 
+        else {
+            members.push(newMember)
+            lblResult.value = "You have been added as a member."
+            }
 }
+
+
